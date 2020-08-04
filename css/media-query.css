@@ -1,0 +1,547 @@
+@media screen and (max-width: 1024px){
+
+    .section-header-sociales{
+        height: auto;
+        max-width: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-self: end;
+        margin: 0 auto;
+    }
+    .main-content-text{
+        display: flex;
+        width: auto;
+        justify-self: center;    
+        text-align: center;
+        font-size: 55px;
+        font-family: 'Bree Serif';
+        margin: 10px auto;
+    }
+    .main-content-text p{
+        margin-top: 50px;
+        margin-bottom: 60px;
+        letter-spacing: 2px;
+        color: white;
+    }
+
+    .main-container-pags{
+        width: 100%;
+        height: 100%;
+        margin: 26px auto 0;
+    }
+
+    .main-texto-container{
+        height: 100%;
+        width: auto; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 1px #576574;
+        border-radius: 20px ;
+        margin: 0 auto ;
+        flex-wrap: wrap;
+     }
+
+     .main-tipos-services{
+        width: auto;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin: 20px auto 0 auto;
+    }
+    .main-texto-container img{
+        max-width: 290px;
+        margin: 0 auto;
+        padding: 10px ;
+    }
+        .main-tipos-services p{
+        text-align: justify;
+        margin: 0 30px 0;
+        font-size: 20px;
+    }
+
+
+
+    .section-container{
+        height: 100%;
+        width: 100%;
+        margin: 0 auto 20px auto;
+    }
+    .section-perifericos-txt{
+        width: 800px;
+        height: 100%;
+        margin: 0 auto 20px auto;
+        padding-top: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-perifericos-img{
+        height: 100%;
+        width: 800px;
+        margin: 0 auto 20px auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        
+    }
+    .section-perifericos-txt p{
+        font-size: 20px;
+        text-align: justify;
+        letter-spacing: 1px;
+        margin: 0 20px;
+    }
+
+    .tipos-perifericos{
+        width: auto;
+        height: 100%;
+        padding-top: 5px;
+        display: grid;
+        margin: 20 auto 20px auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+
+    .content-redes-inicio{
+        width: auto;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 20px auto 0;
+    }
+    .redes-description{
+        width: auto;
+        height: 100%;
+        margin: 20px auto;
+        text-align: justify;
+        padding: 5px;
+    }
+    
+    .redes-description p{
+        margin: 0 85px 45px;
+        padding: 20px;
+        letter-spacing: 1px;
+        font-size: 20px;
+    }
+
+    .redes-description-img{
+        width: auto;
+        height: 100%;
+        margin: 0 auto 25px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .redes-description-img img{
+        max-width: 713px;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .home-body{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .section-header-sociales{
+        height: auto;
+        max-width: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-self: end;
+        margin: 0 auto;
+    }
+    .main-content-text{
+        display: flex;
+        width: auto;
+        justify-self: center;    
+        text-align: center;
+        font-size: 55px;
+        font-family: 'Bree Serif';
+        margin: 10px auto;
+    }
+    .main-content-text{
+        font-size: 38px;
+        margin: 44px auto;
+    }
+    .main-content-text p{
+        margin-top: 50px;
+        margin-bottom: 60px;
+        letter-spacing: 2px;
+        color: white;
+    }
+
+    .nav-title{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        font-weight: normal;
+        font-size: 27px;
+        margin-left: 35px;
+    }
+
+
+    .section-header-sociales-pags{
+        height: auto;
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-self: end;
+        margin: auto;
+    }
+    .nav-title-pags{
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        font-weight: normal;
+        font-size: 20px;
+        width: auto;
+    }
+    
+    .nav-title-pags h1{
+        letter-spacing: 4px;
+        margin: 0;
+    }
+    .main-texto-container p{
+        padding-right: 20px;
+        padding-left: 20px;
+        margin: 0 auto;
+        font-weight: normal;
+        letter-spacing: 1px;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .main-tipos-services{
+        width: auto;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin: 20px auto 0 auto;
+    }
+    
+    .main-tipos-services img{
+        max-height: 70px;
+        margin: 10px;
+    }
+    
+    .main-tipos-services p{
+        text-align: justify;
+        margin: 0 20px 0;
+        font-size: 16px;
+    }
+    .footer-content p{
+        color: white;
+        margin: 0;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        font-size: 11px;
+    }
+
+
+    .nav-title-refac{
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        font-weight: normal;
+        font-size: 22px;
+        width: auto;
+    }
+    .section-perifericos-txt{
+        width: auto;
+        height: 100%;
+        margin: 0 auto 20px auto;
+        padding-top: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-perifericos-img{
+        height: 100%;
+        width: auto;
+        margin: 0 auto 20px auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        
+    }
+    .section-perifericos-txt p{
+        font-size: 22.5px;
+        text-align: justify;
+        letter-spacing: 1px;
+        margin: 0 15px;
+    }
+    .content-redes-inicio{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 20px auto 0;
+    }
+    .redes-principal-uno-txt p{
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .redes-principal-dos-txt p{
+        margin: 0;
+        font-size: 14px;
+    }
+    .redes-description{
+        width: auto;
+        height: 100%;
+        margin: 20px auto 0;
+        text-align: justify;
+        padding: 5px;
+    }
+    
+    .redes-description p{
+        margin: 0 15px 45px;
+        letter-spacing: 1px;
+        font-size: 20px;
+    }
+    .redes-description-img img{
+        max-width: 475px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .home-body{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .header-index{
+        height: 135px;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 55px 80px ;
+    }
+    .section-header{
+        width: 100%;
+        height: 55px;
+        background-color: #3aaac6;
+        display: grid;
+    }
+    .nav-container{
+        background-color: #eaeaea;
+        width: 100%;
+        height: 80px;
+        display: grid;
+        grid-template-columns: 1fr 2fr ;
+    }
+    
+    .nav-container-logo{
+        width: 100px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+    }
+    .nav-container-logo img{
+        max-width: 80px;
+    }
+    .nav-title{
+        font-size: 21px;
+        margin-left: 20px;
+    }
+    .main-content-text{
+        font-size: 34px;
+        margin: 44px auto;
+    }
+    .main-content-services button{
+        width: 320px;
+        height: 53px;
+    }
+
+    .section-header-sociales-pags{
+        height: auto;
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-self: end;
+        margin: auto;
+    }
+
+    .main-texto-container p{
+        padding-right: 20px;
+        padding-left: 20px;
+        margin: 0 auto;
+        font-weight: normal;
+        letter-spacing: 1px;
+        font-size: 18px;
+        text-align: justify;
+    }
+    .main-tipos-services p{
+        text-align: justify;
+        margin: 0 17px 0;
+        font-size: 14px;
+    }
+    .footer-content p{
+        color: white;
+        margin: 0;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        letter-spacing: 1px;
+    }
+
+
+
+
+
+    .nav-title-refac{
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        font-weight: normal;
+        font-size: 18px;
+        width: auto;
+    }
+    .tipos-perifericos{
+        width: auto;
+        height: 100%;
+        padding-top: 5px;
+        display: grid;
+        margin: 20 auto 20px auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .section-perifericos-txt p{
+        font-size: 20px;
+        text-align: justify;
+        letter-spacing: 1px;
+        margin: 0 20px;
+    }
+    .section-perifericos-img img{
+        max-width: 320px;
+    }
+
+
+
+    .content-redes{
+        width: 100%;
+        height: 100%;
+        margin-top: 25px;
+    }
+    .nav-title-pags{
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        font-weight: normal;
+        font-size: 18px;
+        width: auto;
+    }   
+    .redes-description p{
+        margin: 0 10px 25px;
+        padding: 5px;
+        letter-spacing: 1px;
+        font-size: 16px;
+    } 
+    .section-perifericos-txt p{
+        font-size: 22.5px;
+        text-align: justify;
+        letter-spacing: 1px;
+        margin: 0 10px;
+    }
+    .redes-description-img img{
+        max-width: 330px;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    .nav-title{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        font-weight: normal;
+        font-size: 17px;
+        margin-left: 0;
+    }
+    .main-content-text{
+        font-size: 28px;
+        margin: 44px auto;
+    }
+    .main-content-services button{
+        background-color: #3aaac6;
+        border: none;
+        width: 250px;
+        height: 53px;
+        font-size: 18px;
+        margin: 0 auto;
+    }
+
+
+    .section-header-sociales-pags{
+        height: auto;
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-self: end;
+        margin: auto;
+    }
+    .main-texto-container p{
+        padding-right: 17px;
+        padding-left: 17px;
+        margin: 0 auto;
+        font-weight: normal;
+        letter-spacing: 1px;
+        font-size: 16px;
+        text-align: justify;
+    }
+    .main-tipos-services p{
+        text-align: justify;
+        margin: 0 14px 0;
+        font-size: 12px;
+    }
+
+
+
+    .nav-title-pags{
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        text-align: center;
+        font-weight: normal;
+        font-size: 16px;
+        width: auto;
+    } 
+    .section-perifericos-txt p{
+        font-size: 17px;
+        text-align: justify;
+        letter-spacing: 1px;
+        margin: 0 20px;
+    }
+    .section-perifericos-img img{
+        max-width: 280px;
+    }
+
+    .redes-description p{
+        margin: 0 10px 12px;
+        letter-spacing: 1px;
+        font-size: 14px;
+    } 
+    .redes-description-img img{
+        max-width: 300px;
+    }
+}
