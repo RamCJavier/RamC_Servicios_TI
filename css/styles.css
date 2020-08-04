@@ -389,6 +389,10 @@ ____________________________________________________
     justify-content: center;
 }
 
+.redes-description-img img{
+    object-fit: cover;
+}
+
 .nav-container-refac{
     background-color: #eaeaea;
     width: 100%;
